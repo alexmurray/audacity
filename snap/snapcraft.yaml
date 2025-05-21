@@ -72,7 +72,7 @@ parts:
     after: [alsa-mixin]
     plugin: cmake
     source: https://github.com/audacity/audacity.git
-    source-tag: Audacity-$SNAPCRAFT_PROJECT_VERSION
+    source-tag: Audacity-$CRAFT_PROJECT_VERSION
     parse-info: [usr/share/metainfo/audacity.appdata.xml]
     override-pull: |
       craftctl default
